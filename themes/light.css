@@ -11,3 +11,20 @@ a {
 i {
   color: #ff4242;
 }
+
+.slide-container:has(.section-title) {
+  margin: 0 !important;
+  background: #150000;
+  background: linear-gradient(125deg, rgba(21, 0, 0, 1) 0%, rgba(56, 6, 20, 1) 35%, rgba(21, 0, 0, 1) 100%);
+  padding: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+
+.section-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: #ff8282;
+  background: transparent;
+}
